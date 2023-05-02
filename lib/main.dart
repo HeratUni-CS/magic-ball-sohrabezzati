@@ -42,7 +42,7 @@ class _BallState extends State<Ball> {
           });
           print('I got clicked : $ballNumber');
         },
-        child: Image.asset('images/ball1.png'),
+        child: Image.asset('images/ball$ballNumber.png'),
       ),
     );
   }
